@@ -29,3 +29,24 @@ let myObj = {
 const myFunction = function () {
     console.log("Hello World");
 }
+
+
+// ---------------------------------
+// Stack(primitive) and Heap (Non-Primitive)
+
+let myYoutubename = "Tamangvlog.com"
+let anotherName =  myYoutubename;
+anotherName = "ramesh.com"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let one = {
+    name:"Aakriti Sharma",
+    designation: "RN"
+}
+
+let two = one
+two.designation = "Software Developer"
+console.log(one);
+console.log(two);
