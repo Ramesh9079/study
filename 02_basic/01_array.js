@@ -36,7 +36,9 @@ console.log("A", myArr);
 const myn1 = myArr.slice(1,3)
 console.log(myn1);
 console.log("B", myArr);
+// slice exclude the end position and returns the original array
 
 const myn2 = myArr.splice(1,3);
 console.log(myn2);
-console.log("c",myArr)
+console.log("C",myArr)
+// splice includes the end position element and modifies the original array. 
