@@ -1,6 +1,11 @@
-console.log(Math.floor(Math.random()*10)+1);
+console.log(myDate.toJSON());
+// console.log(myDate.toLocaleString());
+// console.log(typeof myDate); // returns objects
 
-// const min = 10
-// const max = 20
+// let myCreatedDate = new Date(2023, 0, 23)
+// console.log(myCreatedDate.toDateString());
 
-// console.log(Math.floor(Math.random () * (max-min+1))+ min)
+
+// let myTimeStamp = Date.now();
+// console.log(myTimeStamp);
+// console.log(Math.floor(Date.now()/1000));
