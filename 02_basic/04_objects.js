@@ -46,6 +46,7 @@ const obj2 = {
 // console.log(tinderUser.hasOwnProperty("IsloggedIn"));
 
 
+// Object de-structuring
 const course = {
   coursename:"js in hindi",
   price: "999",
@@ -54,5 +55,9 @@ const course = {
 //  course.courseInstructor 
 
 const {courseInstructor:instructor} = course
-
 console.log(instructor);
+
+
+// ========== API concept =============
+//  JSON (key and value both are strings)
+
