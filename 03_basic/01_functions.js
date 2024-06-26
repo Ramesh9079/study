@@ -22,7 +22,7 @@ function addTwoNumbers(num1, num2) {
 const result = addTwoNumbers(3, 5);
 // console.log(`Result : ${result}`);
 
-function loginUserMessage(username  = "Sam") {
+function loginUserMessage(username = "Sam") {
   if (!username) {
     console.log("Please enter a username");
     return;
@@ -32,4 +32,38 @@ function loginUserMessage(username  = "Sam") {
 }
 
 // console.log(loginUserMessage("Sujan"))
-console.log(loginUserMessage("Aakriti"));
+// console.log(loginUserMessage("Aakriti"));
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+function calculateCartPrice(...num1) {
+  // (val1,val2, ...num1)
+  return num1;
+}
+console.log(calculateCartPrice(200, 400, 500, 800, 600)); // => [800,600]
+
+
+// =================================
+const user = {
+  username: "Ramesh",
+  price: 199,
+};
+
+function handleObject(anyobject) {
+  console.log(
+    `Username is ${anyobject.username} and price is ${anyobject.price}`
+  );
+}
+// handleObject(user);
+handleObject({
+    username: "Rambabu", 
+    price: 9999
+})
+ //+++++++++++++++++++++++++++++++++++++++++
+const myArray  = [200,400,900,100]
+
+function returnSecondValue (getArray) {
+    return getArray[1]
+}
+// console.log(returnSecondValue(myArray));
+console.log(returnSecondValue([100,200,300,400]));
