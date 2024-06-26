@@ -38,7 +38,7 @@ if (true){
 
 // *************************************************************
 
-console.log(addOne(6))
+console.log(addOne(6)) //  We can execute the function before declariation
 function addOne(num){
     return num +1
 }
@@ -47,4 +47,6 @@ function addOne(num){
 const addTwo = function (num){
   return num +2
 }
-console.log(addTwo(5))
+console.log(addTwo(5)) 
+/* "We cannot execute the function before declaration in the expression function"
+*/
