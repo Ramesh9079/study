@@ -38,11 +38,21 @@ const obj2 = {
 // console.log(obj3);
 
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser)); // return value is array
-console.log(Object.values(tinderUser)); // return value is array
-console.log(Object.entries(tinderUser)); // return key and value in array form.
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser)); // return value is array
+// console.log(Object.values(tinderUser)); // return value is array
+// console.log(Object.entries(tinderUser)); // return key and value in array form.  Output: [ [ 'id', '123abc' ], [ 'name', 'Samantha' ], [ 'isloggedIn', true ] ]
 
-console.log(tinderUser.hasOwnProperty("IsloggedIn"));
+// console.log(tinderUser.hasOwnProperty("IsloggedIn"));
 
 
+const course = {
+  coursename:"js in hindi",
+  price: "999",
+  courseInstructor : "Hitesh"
+}
+//  course.courseInstructor 
+
+const {courseInstructor:instructor} = course
+
+console.log(instructor);
