@@ -12,9 +12,9 @@ while (arr < myArray.length) {
 }
 
 // do while loop
-
 let score = 1;
 do {
   console.log(`Score is ${score}`);
   score++;
 } while (score <= 10);
+//  This code will executed first before checking the condition.
