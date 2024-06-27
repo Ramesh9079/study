@@ -18,3 +18,18 @@ do {
   score++;
 } while (score <= 10);
 //  This code will be executed first before checking the condition.
+
+/*
+let tv = ["SamSung", "LG", "Hicense"];
+let count = 0;
+
+while (count < tv.length) {
+  console.log(`New TV is ${tv[count]}`);
+  count++;
+}
+
+do {
+  console.log(`New TV is ${tv[count]}`);
+  count++;
+} while (count < tv.length);
+*/
