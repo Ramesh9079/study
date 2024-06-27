@@ -17,4 +17,4 @@ do {
   console.log(`Score is ${score}`);
   score++;
 } while (score <= 10);
-//  This code will executed first before checking the condition.
+//  This code will be executed first before checking the condition.
