@@ -22,3 +22,4 @@ const newNums = myNumbers
   .filter((num) => num > 50); // it filter the number greater than 50 from above operation.
 
 console.log(newNums);
+
