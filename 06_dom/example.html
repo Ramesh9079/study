@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example</title>
+  </head>
+  <body></body>
+  <script>
+    //  New Element in DOM using function
+    function createElement(parentSelector, addText, bgColor) {
+      const parent = document.createElement(parentSelector);
+      parent.setAttribute("className", "main");
+      parent.style.backgroundColor = bgColor;
+
+      const text = document.createTextNode(addText);
+      parent.appendChild(text);
+
+      document.body.appendChild(parent);
+    }
+
+    createElement("header", "Portfolio", "yellow");
+    createElement("div", "Software Engineer Ramesh Tamang", "green");
+  </script>
+</html>
