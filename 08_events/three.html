@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Chai Aur Code</h1>
+  </head>
+  <body>
+    <h1>Time Out</h1>
     <button id="start">Start</button>
     <button id="stop">Stop</button>
-</body>
-<script>
-   const sayDate = function(str){
-        console.log(str, Date.now());
-    }
+  </body>
+  <script>
+    const sayDate = function (str) {
+      console.log(str, Date.now());
+    };
     // document.querySelector('#start').addEventListener('click', function(){
     //     const intervalID =  setInterval(sayDate, 1000, "Hi");
     // })
     // document.querySelector('#stop').addEventListener('click', function(){
     // clearInterval(intervalID);
     // })
+    let intervalId;
+    const startChanging = function () {
+      intervalId = setInterval(sayDate, 1000, "Ramesh");
+    };
+    const stopChanging = function () {
+      console.log(`Stopped has been clicked`);
+      clearInterval(intervalId);
+    };
 
-//    const start =  document.querySelector("#start").addEventListener('click', startInterval());
-//    const stop =  document.querySelector("#stop").addEventListener('click', stopInterval);
-
-//    const startInterval = function(){
-//     const intervalID = setInterval(sayDate, 1000, "Ramesh")
-//    }
-
-
-
-
-       
-
-
-</script>
+    document.querySelector("#start").addEventListener("click", startChanging);
+    document.querySelector("#stop").addEventListener("click", stopChanging);
+  </script>
 </html>
