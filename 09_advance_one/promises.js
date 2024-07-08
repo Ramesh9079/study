@@ -99,13 +99,17 @@ consumePromiseFive();
 
 // getAllUsers();
 
-fetch("https://jsonplaceholder.typicode.com/users")
-  .then((response) => {
-    return response.json();
-  })
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((data) => {
+//     console.log(data);
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });
+
+//  global fetch () method and return the promise (Network)
+//  404 error  => comes as a response (not reject)
+//  fetch (url, )
