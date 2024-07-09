@@ -61,7 +61,12 @@ String.prototype.trueLength = function () {
   console.log(`True Length is: ${this.trim().length}`);
 };
 
-anotherUsername.trueLength();
+// anotherUsername.trueLength();
 
-"Ramesh".trueLength();
-"iceatea".trueLength();
+// "Ramesh".trueLength();
+// "iceatea".trueLength();
+
+Array.prototype.ramesh = function () {
+  console.log(`Ramehs `);
+  //   console.log(`Added Heros is :${this.push("IronMan")}`);
+};
