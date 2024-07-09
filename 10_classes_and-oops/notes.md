@@ -17,3 +17,10 @@ Object Literal
 -ptototypes
 -classes
 -Instances (new, this)
+
+## 4 Pillars
+
+-Abstractions (detail hide)
+-Encapsulation
+-Inheritance
+-Polymorphism
